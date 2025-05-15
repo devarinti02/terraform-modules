@@ -25,5 +25,5 @@ module "ec2" {
 }
 
 module "s3_bucket" {
-  source = ./modules/S3-Bucket
+  source = "./modules/S3-Bucket"
 }

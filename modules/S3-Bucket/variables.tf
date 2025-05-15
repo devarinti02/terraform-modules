@@ -1,6 +1,6 @@
 variable "bucket_name" {
   type        = string
-  default = "TF-Module_Bucket"
+  default = "tf-module-bucket"
 }
 
 variable "versioning" {
